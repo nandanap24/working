@@ -11,4 +11,4 @@ My 60-day AI Engineering journey.
 
 ## Day 2
 
-- # AI and Machine Learning Notes
+- AI and Machine Learning Notes
