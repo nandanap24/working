@@ -8,3 +8,7 @@ My 60-day AI Engineering journey.
 - Virtual environment
 - NumPy basics
 - JSON reader
+
+## Day 2
+
+- # Machine Learning Notes
