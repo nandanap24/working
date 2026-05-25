@@ -132,13 +132,13 @@ Used in:
 Run Day 4 PCA experiments:
 
 ```bash id="cg1vny"
-python src/day4_pca_lab.py
+python3 src/day4_pca_lab.py
 ```
 
 Save outputs:
 
 ```bash id="j5x9fw"
-python src/day4_pca_lab.py > reports/day4_output.txt
+python3 src/day4_pca_lab.py > reports/day4_output.txt
 ```
 
 ---
