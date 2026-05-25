@@ -1,0 +1,21 @@
+Shape of X:  (4, 2)
+X_centered :  [[-1.5 -3. ]
+ [-0.5 -1. ]
+ [ 0.5  1. ]
+ [ 1.5  3. ]]
+Centered_shape :  [[-1.5 -3. ]
+ [-0.5 -1. ]
+ [ 0.5  1. ]
+ [ 1.5  3. ]]
+Cov_matrix :  [[1.66666667 3.33333333]
+ [3.33333333 6.66666667]]
+Covariance_shape :  (2, 2)
+Eigenvalues : [0.         8.33333333]
+Eigenvalues shape :  (2,)
+Eigenvectors :  [[-0.89442719 -0.4472136 ]
+ [ 0.4472136  -0.89442719]]
+Eigenvectors shape :  (2, 2)
+Principal component :  [-0.89442719  0.4472136 ]
+Principal component shape :  (2,)
+Projected_data :  [-5.55111512e-17  0.00000000e+00  0.00000000e+00  5.55111512e-17]
+Projected shape :  (4,)

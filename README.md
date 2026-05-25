@@ -1,26 +1,27 @@
 # AI-ML-LLM 60 Day Lab
 
-A structured 60-day journey to become an AI/ML Engineer through hands-on coding, mathematics, debugging, Git workflows, and real engineering practices.
+A structured 60-day hands-on journey to become an AI/ML Engineer through mathematics, coding, debugging, Git workflows, and real engineering practices.
 
 ---
 
 # Week 1 — Foundation Engine
 
-## Day 1
+## Day 1 — AI Engineering Environment + Python Baseline
 
-- Python environment setup
+- Python setup
 - Virtual environments
-- Git basics
+- Linux shell basics
+- Project structure
 - JSON/text file handling
 
-## Day 2
+## Day 2 — Git/GitHub Workflow + Clean Python
 
-- Git/GitHub workflow
-- Branches and merge conflicts
+- Git workflow
+- Branching and merge conflicts
 - Type hints
 - Dot product and weighted sums
 
-## Day 3
+## Day 3 — Linear Algebra for ML
 
 - Vectors and matrices
 - Matrix multiplication
@@ -28,11 +29,20 @@ A structured 60-day journey to become an AI/ML Engineer through hands-on coding,
 - Cosine similarity
 - Shape algebra and debugging
 
+## Day 4 — Eigenvectors, PCA Intuition, Probability Basics
+
+- Mean, variance, covariance
+- Eigenvalues and eigenvectors
+- PCA pipeline
+- Covariance matrix
+- Probability distributions
+- Dimensionality reduction intuition
+
 ---
 
 # Project Structure
 
-```bash
+```bash id="ewm1ax"
 ai-ml-llm-60day-lab/
 │
 ├── src/
@@ -45,42 +55,50 @@ ai-ml-llm-60day-lab/
 
 ---
 
-# Key Concepts Learned
+# Key Mathematical Concepts
 
-## Linear Algebra for ML
+## Variance
 
-### Vector
+Measures how much data spreads around the mean.
 
-Example:
+## Covariance
 
-```python
-[1,2,3]
+Measures how two variables move together.
+
+- Positive covariance → variables increase together
+- Negative covariance → one increases while the other decreases
+
+## Eigenvectors and Eigenvalues
+
+Eigenvectors represent important stable directions in data.
+
+Eigenvalues measure the importance of those directions.
+
+Core equation:
+
+```text id="r4l4lq"
+Av = λv
 ```
 
-### Matrix
+---
 
-Example:
+# PCA (Principal Component Analysis)
 
-```python
-[[1,2,3],
- [4,5,6]]
-```
+PCA reduces dimensions while preserving maximum variance.
 
-### Matrix Multiplication
+PCA Pipeline:
 
-Valid multiplication rule:
-
-```text
-(m,n) × (n,p)
-```
-
-Inner dimensions must match.
+1. Center data
+2. Compute covariance matrix
+3. Compute eigenvectors/eigenvalues
+4. Select principal components
+5. Project data into lower dimensions
 
 ---
 
 # Cosine Similarity
 
-Cosine similarity measures directional similarity between vectors.
+Measures directional similarity between vectors.
 
 Range:
 
@@ -97,29 +115,31 @@ Used in:
 
 ---
 
-# Example Commands
-
-Run linear algebra experiments:
-
-```bash
-python src/day3_linear_algebra.py
-```
-
-Save outputs:
-
-```bash
-python src/day3_linear_algebra.py > reports/day3_output.txt
-```
-
----
-
 # Engineering Practices
 
 - Shape logging for debugging
 - Success and failure case testing
-- Git commits and branching
-- README documentation
+- Git branching workflow
+- Merge conflict handling
 - Experimental observations
+- README documentation
+- Reproducible reports
+
+---
+
+# Example Commands
+
+Run Day 4 PCA experiments:
+
+```bash id="cg1vny"
+python src/day4_pca_lab.py
+```
+
+Save outputs:
+
+```bash id="j5x9fw"
+python src/day4_pca_lab.py > reports/day4_output.txt
+```
 
 ---
 
@@ -130,6 +150,7 @@ Completed:
 - Day 1
 - Day 2
 - Day 3
+- Day 4
 
 ---
 
@@ -143,3 +164,4 @@ Build strong foundations in:
 - LLMs
 - RAG Systems
 - AI Deployment
+- MLOps
